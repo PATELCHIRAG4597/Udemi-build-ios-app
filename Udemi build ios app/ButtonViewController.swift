@@ -8,22 +8,37 @@
 import UIKit
 
 class ButtonViewController: UIViewController {
-
+    //line number 11,17,18,19 for ui lable prectise 
+    @IBOutlet weak var Lable: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.Lable.text = "swift"
+        self.Lable.backgroundColor = UIColor.green
+        self.Lable.textColor = UIColor.blue
     }
+              @IBAction func alertOne(_ sender: UIButton) {
+              
+              let alert = UIAlertController(title: "Sign out?", message: "You can always access your content by signing back in",         preferredStyle: UIAlertController.Style.alert)
+
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default, handler: { _ in
+                //Cancel Action
+            }))
+            alert.addAction(UIAlertAction(title: "Sign out",
+                                          style: UIAlertAction.Style.default,
+                                          handler: {(_: UIAlertAction!) in
+                                            //Sign out action
+            }))
+            self.present(alert, animated: true, completion: nil)
+        }
+}
+    
+   
+   
+    
     
 
-    /*
-    // MARK: - Navigation
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
-}
