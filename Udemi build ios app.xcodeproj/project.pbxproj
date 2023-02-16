@@ -17,6 +17,8 @@
 		187C625D299A4850009DDBE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187C625B299A4850009DDBE3 /* LaunchScreen.storyboard */; };
 		18F808B4299CB45E006BBF18 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F808B3299CB45E006BBF18 /* ImageViewController.swift */; };
 		18F808B6299DF5DE006BBF18 /* SegmentControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F808B5299DF5DE006BBF18 /* SegmentControllerViewController.swift */; };
+		18F808BA299E0940006BBF18 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F808B9299E0940006BBF18 /* ActivityIndicatorViewController.swift */; };
+		18F808BE299E2AE9006BBF18 /* UIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F808BD299E2AE9006BBF18 /* UIStepperViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		187C625E299A4850009DDBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F808B3299CB45E006BBF18 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		18F808B5299DF5DE006BBF18 /* SegmentControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControllerViewController.swift; sourceTree = "<group>"; };
+		18F808B9299E0940006BBF18 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		18F808BD299E2AE9006BBF18 /* UIStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				187C6252299A484C009DDBE3 /* SceneDelegate.swift */,
 				187C6254299A484C009DDBE3 /* ViewController.swift */,
 				187C6256299A484C009DDBE3 /* Main.storyboard */,
+				18F808BD299E2AE9006BBF18 /* UIStepperViewController.swift */,
+				18F808B9299E0940006BBF18 /* ActivityIndicatorViewController.swift */,
 				18F808B5299DF5DE006BBF18 /* SegmentControllerViewController.swift */,
 				18F808B3299CB45E006BBF18 /* ImageViewController.swift */,
 				187C6259299A4850009DDBE3 /* Assets.xcassets */,
@@ -151,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				182B1847299BB79A00BE2004 /* TextFieldViewController.swift in Sources */,
+				18F808BA299E0940006BBF18 /* ActivityIndicatorViewController.swift in Sources */,
 				182B1845299B4DBB00BE2004 /* ButtonViewController.swift in Sources */,
+				18F808BE299E2AE9006BBF18 /* UIStepperViewController.swift in Sources */,
 				187C6255299A484C009DDBE3 /* ViewController.swift in Sources */,
 				18F808B6299DF5DE006BBF18 /* SegmentControllerViewController.swift in Sources */,
 				187C6251299A484C009DDBE3 /* AppDelegate.swift in Sources */,
