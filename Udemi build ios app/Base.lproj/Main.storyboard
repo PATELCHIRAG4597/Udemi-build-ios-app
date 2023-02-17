@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aZO-zr-KEL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FFF-4L-fhs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -267,6 +267,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2DY-6R-S3v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5488.4057971014499" y="73.660714285714278"/>
+        </scene>
+        <!--web View Controller-->
+        <scene sceneID="DuO-ZL-HJW">
+            <objects>
+                <viewController storyboardIdentifier="WK_web_View_Controller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FFF-4L-fhs" customClass="WK_web_View_Controller" customModule="Udemi_build_ios_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gsm-HO-bs5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FgB-ob-zLg">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q8o-iQ-KFf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FgB-ob-zLg" firstAttribute="top" secondItem="Q8o-iQ-KFf" secondAttribute="top" id="8qK-ep-EDY"/>
+                            <constraint firstItem="Q8o-iQ-KFf" firstAttribute="trailing" secondItem="FgB-ob-zLg" secondAttribute="trailing" id="MT7-Zf-phd"/>
+                            <constraint firstItem="FgB-ob-zLg" firstAttribute="leading" secondItem="Q8o-iQ-KFf" secondAttribute="leading" id="Stz-GD-zPB"/>
+                            <constraint firstItem="Q8o-iQ-KFf" firstAttribute="bottom" secondItem="FgB-ob-zLg" secondAttribute="bottom" id="pYZ-pN-tDT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="WebView" destination="FgB-ob-zLg" id="cgA-m7-DVt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="57L-LN-nmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6172" y="74"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iuP-vv-QGV">

@@ -19,6 +19,7 @@
 		18F808B6299DF5DE006BBF18 /* SegmentControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F808B5299DF5DE006BBF18 /* SegmentControllerViewController.swift */; };
 		18F808BA299E0940006BBF18 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F808B9299E0940006BBF18 /* ActivityIndicatorViewController.swift */; };
 		18F808BE299E2AE9006BBF18 /* UIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F808BD299E2AE9006BBF18 /* UIStepperViewController.swift */; };
+		18F808C6299E5C33006BBF18 /* WK web View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F808C5299E5C33006BBF18 /* WK web View Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		18F808B5299DF5DE006BBF18 /* SegmentControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControllerViewController.swift; sourceTree = "<group>"; };
 		18F808B9299E0940006BBF18 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		18F808BD299E2AE9006BBF18 /* UIStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperViewController.swift; sourceTree = "<group>"; };
+		18F808C5299E5C33006BBF18 /* WK web View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WK web View Controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				187C6252299A484C009DDBE3 /* SceneDelegate.swift */,
 				187C6254299A484C009DDBE3 /* ViewController.swift */,
 				187C6256299A484C009DDBE3 /* Main.storyboard */,
+				18F808C5299E5C33006BBF18 /* WK web View Controller.swift */,
 				18F808BD299E2AE9006BBF18 /* UIStepperViewController.swift */,
 				18F808B9299E0940006BBF18 /* ActivityIndicatorViewController.swift */,
 				18F808B5299DF5DE006BBF18 /* SegmentControllerViewController.swift */,
@@ -164,6 +167,7 @@
 				18F808B6299DF5DE006BBF18 /* SegmentControllerViewController.swift in Sources */,
 				187C6251299A484C009DDBE3 /* AppDelegate.swift in Sources */,
 				18F808B4299CB45E006BBF18 /* ImageViewController.swift in Sources */,
+				18F808C6299E5C33006BBF18 /* WK web View Controller.swift in Sources */,
 				187C6253299A484C009DDBE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
